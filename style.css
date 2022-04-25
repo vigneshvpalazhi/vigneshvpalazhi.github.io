@@ -1,0 +1,72 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+h1{
+  font-size: 3rem ;
+  color: #bbb8bf;
+  
+
+
+}
+hr{
+  border-color: rgb(255, 0, 0);
+  border-width: 3px;
+  max-width: 310px;
+}
+
+
+
+/* this give the distance b\w the text and the button */
+
+.buffer{   
+  height: 10rem;
+}
+
+
+
+
+/* border radius is used to make the button round */
+
+.btn{
+  font-weight: 700;
+  border-radius: 100px;
+  text-transform: uppercase;
+  
+}
+
+
+
+.btn-primary{
+  background-color: orangered;
+  border-color: orangered;
+}
+
+
+
+
+.btn-primary:hover{
+  background-color: orange;
+  border-color: orange;
+  border-width: 5px;
+  cursor: wait;
+}
+
+
+
+/* padding is used to make the size of button increase */
+
+.btn-xl{
+  padding: 1rem 2rem;
+
+}
+
+
